@@ -114,6 +114,7 @@ img {
   #why .row img {
     width: 15%;
     height: auto;
+    /* padding: 20px; */
   }
 
   img {
@@ -138,7 +139,7 @@ img {
 
   #lezioni .row img {
     width: 30%;
-    height: auto%;
+    height: auto;
   }
 
   img {
@@ -156,7 +157,7 @@ img {
   #why .row img {
     width: 25%;
     height: auto;
-    padding: 10px
+    padding: 10px;
   }
 
   hr {
@@ -169,3 +170,11 @@ img {
     box-sizing: border-box;
   }
 }
+
+/* testing */
+/* @media screen and (min-width: 420px) and (max-width: 768px) {
+  .third h3 #text::after {
+    content: "X";
+    color: red;
+  }
+} */
