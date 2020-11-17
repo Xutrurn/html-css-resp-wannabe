@@ -72,8 +72,7 @@ img {
   clear: both;
 }
 
-/* ! Smartphone View */
-/* @media screen and (max-width: 419px) {} */
+/* ! Smartphone View Start */
 @media screen and (max-width: 419px) {
   .row {
     width: auto;
@@ -157,13 +156,47 @@ img {
     width: auto;
     margin-top: 0;
     /* test */
-    background-color: blue;
+    /* background-color: rgb(146, 210, 210); */
   }
 }
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
   #lezioni .row img {
-    width: 50%;
-    height: 55%;
+    width: 30%;
+    height: auto%;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  img {
+    height: auto;
+    width: 30%;
+  }
+}
+/* test */
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    width: calc(100% / 3);
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  #why .row img {
+    width: 25%;
+    height: auto;
+    padding: 15px
+
+  }
+}
+
+/* test */
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
