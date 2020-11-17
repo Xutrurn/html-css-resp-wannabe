@@ -77,19 +77,12 @@ img {
   .row {
     width: auto;
     margin-top: 0;
-    /* test */
-    /* background-color: red; */
   }
-}
 
-@media screen and (max-width: 419px) {
   h1, h3 {
     margin-top: 0;
     margin-bottom: 20px;
   }
-}
-
-@media screen and (max-width: 419px) {
 
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -97,16 +90,11 @@ img {
     float: none;
     margin-bottom: 20px;
   }
-}
 
-@media screen and (max-width: 419px) {
   #lezioni .row img {
     width: 35%;
     height: auto;
   }
-}
-
-@media screen and (max-width: 419px) {
 
   #steps .row>.left,
   #steps .row>.central,
@@ -115,9 +103,6 @@ img {
     width: auto;
     padding-bottom: 20px;
   }
-}
-
-@media screen and (max-width: 419px) {
 
   #why .row>.first,
   #why .row>.second,
@@ -125,23 +110,17 @@ img {
     margin-top: 20px;
     padding-bottom: 15px;
   }
-}
 
-@media screen and (max-width: 419px) {
   #why .row img {
     width: 15%;
     height: auto;
   }
-}
 
-@media screen and (max-width: 419px) {
   img {
     height: auto;
     width: 30%;
   }
-}
 
-@media screen and (max-width: 419px) {
   body {
     margin: 0;
     padding: 0;
@@ -155,51 +134,35 @@ img {
   .row {
     width: auto;
     margin-top: 0;
-    /* test */
-    /* background-color: rgb(146, 210, 210); */
   }
-}
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
   #lezioni .row img {
     width: 30%;
     height: auto%;
   }
-}
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
   img {
     height: auto;
     width: 30%;
   }
-}
 
-/* test */
-@media screen and (min-width: 420px) and (max-width: 768px) {
   #why .row>.first, #why .row>.second, #why .row>.third {
     width: calc(100% / 3);
     float: left;
     margin: 0;
     padding: 0;
   }
-}
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
   #why .row img {
     width: 25%;
     height: auto;
     padding: 10px
   }
-}
 
-@media screen and (min-width: 420px) and (max-width: 768px){
-  hr{
+  hr {
     display: none;
   }
-}
 
-/* test */
-@media screen and (min-width: 420px) and (max-width: 768px) {
   body {
     margin: 0;
     padding: 0;
